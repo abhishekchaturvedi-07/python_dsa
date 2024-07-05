@@ -1,90 +1,135 @@
-DSA with Python
-Welcome to the DSA with Python repository! This repository is a comprehensive collection of data structures and algorithms (DSA) implemented in Python. Whether you are preparing for coding interviews, brushing up on your DSA skills, or learning these concepts for the first time, this repository is designed to help you.
+# DSA with Python
 
-Table of Contents
-About
-Installation
-Usage
-Data Structures
-Algorithms
-Contributing
-License
-About
-This repository contains Python implementations of various data structures and algorithms. Each implementation includes a detailed explanation of the concept, the Python code, and example usage. The goal is to provide clear, concise, and well-documented code that is easy to understand and modify.
+This repository contains a comprehensive collection of data structures and algorithms (DSA) implemented in Python. It is designed to help both beginners and experienced programmers enhance their understanding of DSA concepts and improve their problem-solving skills.
 
-Installation
-To get started, you can clone this repository to your local machine:
+## Table of Contents
 
-bash
-Copy code
-git clone https://github.com/your-username/DSA-with-Python.git
-cd DSA-with-Python
-Make sure you have Python installed on your machine. You can create a virtual environment and install any required dependencies using:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contents](#contents)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-pip install -r requirements.txt
-Usage
-You can explore the data structures and algorithms by navigating through the directories. Each directory contains a README file with explanations and usage examples.
+## Introduction
 
-Example to run a specific file:
+Data Structures and Algorithms (DSA) are fundamental to computer science and programming. This repository aims to provide a clear and concise implementation of various data structures and algorithms using Python, making it a valuable resource for learners and practitioners.
 
-bash
-Copy code
-python data_structures/linked_list.py
-Data Structures
-The following data structures are implemented in this repository:
+## Features
 
-Arrays
-Linked Lists
-Stacks
-Queues
-Trees
-Binary Trees
-Binary Search Trees
-AVL Trees
-Red-Black Trees
-Heaps
-Hash Tables
-Graphs
-Algorithms
-The following algorithms are implemented in this repository:
+- Clear and concise implementation of data structures and algorithms.
+- Well-documented code with comments explaining the logic.
+- Examples and test cases for each implementation.
+- Organized directory structure for easy navigation.
+- Regular updates with new content.
 
-Sorting Algorithms
-Bubble Sort
-Selection Sort
-Insertion Sort
-Merge Sort
-Quick Sort
-Heap Sort
-Searching Algorithms
-Linear Search
-Binary Search
-Depth-First Search (DFS)
-Breadth-First Search (BFS)
-Dynamic Programming
-Fibonacci Sequence
-Knapsack Problem
-Longest Common Subsequence
-Graph Algorithms
-Dijkstra's Algorithm
-Bellman-Ford Algorithm
-Floyd-Warshall Algorithm
-Kruskal's Algorithm
-Prim's Algorithm
-Contributing
-Contributions are welcome! If you have any suggestions, bug reports, or new implementations to add, feel free to open an issue or submit a pull request.
+## Installation
 
-Fork the repository
-Create your feature branch (git checkout -b feature/YourFeature)
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/YourFeature)
-Open a pull request
-Please ensure your code adheres to the repository's coding standards and includes appropriate documentation.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abhishekchaturvedi-07/python_dsa/tree/dsa
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd DSA-with-Python
+   ```
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Usage
 
-Feel free to customize this README file to better fit the specific details and structure of your repository.
+To use the implementations, simply import the desired module and call the relevant functions. Examples are provided within each module to demonstrate usage.
+
+```python
+from data_structures.linked_list import LinkedList
+
+# Create a new linked list
+linked_list = LinkedList()
+
+# Insert elements
+linked_list.insert(10)
+linked_list.insert(20)
+
+# Display elements
+linked_list.display()
+```
+
+## Contents
+
+### Data Structures
+
+- Arrays
+- Linked Lists
+  - Singly Linked List
+  - Doubly Linked List
+- Stacks
+- Queues
+- Trees
+  - Binary Tree
+  - Binary Search Tree
+  - AVL Tree
+  - Red-Black Tree
+- Heaps
+  - Min Heap
+  - Max Heap
+- Hash Tables
+- Graphs
+
+### Algorithms
+
+- Sorting Algorithms
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+- Searching Algorithms
+  - Linear Search
+  - Binary Search
+- Graph Algorithms
+  - Depth-First Search (DFS)
+  - Breadth-First Search (BFS)
+  - Dijkstra's Algorithm
+  - Kruskal's Algorithm
+  - Prim's Algorithm
+- Dynamic Programming
+  - Fibonacci Sequence
+  - Knapsack Problem
+- Greedy Algorithms
+  - Activity Selection
+  - Huffman Coding
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Description of your changes"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request with a detailed description of your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- This repository was inspired by various online resources and textbooks on data structures and algorithms.
+- Special thanks to the open-source community for their valuable contributions and feedback.
+
+## Contact
+
+For any questions or suggestions, feel free to open an issue or contact me at [your-email@example.com](mailto:your-email@example.com).
+
+Happy coding!
